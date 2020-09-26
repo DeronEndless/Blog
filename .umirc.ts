@@ -1,4 +1,7 @@
 import { IConfig } from 'umi-types';
+import moment from 'moment';
+
+const RELEASE_TAG = moment().format('YYYY-MM-DD-HH-mm')
 
 // ref: https://umijs.org/config/
 const config: IConfig =  {
@@ -26,6 +29,9 @@ const config: IConfig =  {
           /components\//,
         ],
       },
+    }],
+    ['umi-plugin-rehash2', {
+      hash: RELEASE_TAG,
     }],
   ],
 }

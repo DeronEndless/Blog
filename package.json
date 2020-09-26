@@ -8,8 +8,10 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "moment": "^2.29.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "umi-plugin-rehash2": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
@@ -31,8 +33,14 @@
     "umi-types": "^0.3.0"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint --fix", "git add"],
-    "*.{js,jsx}": ["eslint --fix", "git add"]
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=8.0.0"
