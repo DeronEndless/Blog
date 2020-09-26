@@ -11,7 +11,7 @@
     "moment": "^2.29.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "umi-plugin-rehash2": "^1.0.0"
+    "umi-plugin-rehash": "^0.1.1"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",

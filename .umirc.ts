@@ -30,8 +30,9 @@ const config: IConfig =  {
         ],
       },
     }],
-    ['umi-plugin-rehash2', {
+    ['umi-plugin-rehash', {
       hash: RELEASE_TAG,
+      mode: 'query',
     }],
   ],
 }
