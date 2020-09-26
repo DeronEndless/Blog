@@ -1,0 +1,1 @@
+scp -r ./dist/* root@47.96.103.56:/home/deploy/blog
